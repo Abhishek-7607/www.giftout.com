@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="flower.css">
+</head>
+<body>
+    <div id="header">
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="logo"> <a href="/main/index.html"> <img src="/Images/Logo.png"></a>
+            </div>
+
+
+            <!-- Navbar items -->
+            <div class="navitem">
+                <ul class="nav-items">
+                    <li class="dropdown">
+                        <a href="#">About</a>
+                        <div class="dropdown-content">
+                            <a href="#">Company</a>
+                            <a href="#">Team</a>
+                            <a href="#">Careers</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Contacts</a>
+                        <div class="dropdown-content">
+                            <a href="#">Email</a>
+                            <a href="#">Phone</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Products</a>
+                        <div class="dropdown-content">
+                            <a href="#">New Arrivals</a>
+                            <a href="#">Best Sellers</a>
+                            <a href="#">Sale</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Services</a>
+                        <div class="dropdown-content">
+                            <a href="#">Consulting</a>
+                            <a href="#">Support</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Blog</a>
+                        <div class="dropdown-content">
+                            <a href="#">Latest Posts</a>
+                            <a href="#">Categories</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Hamburger Menu Icon (for mobile) -->
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+
+            <!-- Search bar, Cart and Account icons -->
+            <div class="icons">
+                <input type="text" placeholder="Search..." class="search-bar">
+                <a href="#" class="icon cart-icon">🛒</a>
+                <a href="/Login/login.html" class="icon account-icon">👤</a>
+            </div>
+        </nav>
+
+        <script>
+            function toggleMenu() {
+                const navItems = document.querySelector('.nav-items');
+                navItems.classList.toggle('active');
+            }
+        </script>
+    </div>
+    <div id="fakeHeader"></div>
+
+    <div id="annivig"><img src="/Images/banner3.png" alt="Anniversarybanner"></div>
+
+    <div id="cards">
+        <div class="product-card">
+            <img src="/Images/Flowers.webp" alt="Product Name" class="product-image">
+            <h4 class="product-name">Flowers</h4>
+            <p class="product-price">₹ 491</p>
+            <div class="ratings">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="rating-count">(4.2)</span>
+            </div>
+
+            <button class="buy-button">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="/Images/Cakes.webp" alt="Product Name" class="product-image">
+            <h4 class="product-name">Flowers </h4>
+            <p class="product-price">₹ 492</p>
+            <div class="ratings">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="rating-count">(4.4)</span>
+            </div>
+
+            <button class="buy-button">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="/Images/f2.webp" alt="Product Name" class="product-image">
+            <h4 class="product-name">Flowers </h4>
+            <p class="product-price">₹ 493</p>
+            <div class="ratings">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="rating-count">(4.3)</span>
+            </div>
+
+            <button class="buy-button">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="/Images/personalised.webp" alt="Product Name" class="product-image">
+            <h4 class="product-name">Flowers </h4>
+            <p class="product-price">₹ 494</p>
+            <div class="ratings">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="rating-count">(4.1)</span>
+            </div>
+
+            <button class="buy-button">Buy Now</button>
+        </div>
+
+    </div>
+
+    <div id="cards">
+        <div class="product-card">
+            <img src="/Images/Flowers.webp" alt="Product Name" class="product-image">
+            <h4 class="product-name">Flowers</h4>
+            <p class="product-price">₹ 491</p>
+            <div class="ratings">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="rating-count">(4.2)</span>
+            </div>
+
+            <button class="buy-button">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="/Images/Cakes.webp" alt="Product Name" class="product-image">
+            <h4 class="product-name">Flowers </h4>
+            <p class="product-price">₹ 492</p>
+            <div class="ratings">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="rating-count">(4.4)</span>
+            </div>
+
+            <button class="buy-button">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="/Images/f2.webp" alt="Product Name" class="product-image">
+            <h4 class="product-name">Flowers </h4>
+            <p class="product-price">₹ 493</p>
+            <div class="ratings">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="rating-count">(4.3)</span>
+            </div>
+
+            <button class="buy-button">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="/Images/personalised.webp" alt="Product Name" class="product-image">
+            <h4 class="product-name">Flowers </h4>
+            <p class="product-price">₹ 494</p>
+            <div class="ratings">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="rating-count">(4.1)</span>
+            </div>
+
+            <button class="buy-button">Buy Now</button>
+        </div>
+
+    </div>
+</body>
+</html>
